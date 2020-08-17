@@ -513,6 +513,19 @@
             "1": "実施時期"
         }
         ,
+		"Meetingname":
+        {
+            "0": "Meeting Name",
+            "1": "会議体名称"
+        }
+       
+	    ,
+		"MeetingName":
+        {
+            "0": "Meeting Name",
+            "1": "会議体名称"
+        }
+       ,
     "CompanyName":
         {
             "0": "Company name",
@@ -792,6 +805,18 @@
 		"0":"Material",
 		"1":"資料"
 		},
+		
+		"R&D MTP":
+		{
+		"0":"R&D MTP",
+		"1":"R&D部門中計"	
+		},
+		"Overseas Leaders Meeting":
+		{
+		"0":"Overseas Leaders Meeting",
+		"1":"海外拠点長会議"
+		},
+						
 		"10_ProductDevelopment":
 		{
 		"0":"10_Product Development",
@@ -885,7 +910,7 @@
 		"40_VehicleElementalTechnologyEngineering":
 		{
 		"0":"40_Vehicle Elemental Technology Engineering",
-		"1":""
+		"1":"40_車両要素技術"
 		},
 		"50_ChassisEngineering":
 		{
@@ -1152,6 +1177,11 @@
 		"0":"722_Aerodynamics Perfomance Planning(PV No.3)",
 		"1":"722_空気流性能計画(PV第三)"
 		},
+		"724_AD/ADASPerformanceTest":
+		{
+		"0":"724_AD/ADAS Performance Test",
+		"1":"724_ AD／ADAS実験"
+		},		
 		"076_[F]Strategy":
 		{
 		"0":"076_[F] Strategy",
@@ -1337,10 +1367,10 @@
 		"0":"154_Seat Development",
 		"1":"154_シート開発"
 		},
-		"156_SafetyEngineering":
+		"156_SafetyDesignEngineering":
 		{
-		"0":"156_Safety Engineering",
-		"1":"156_安全開発"
+		"0":"156_Safety Design Engineering",
+		"1":"156_安全装備設計開発"
 		},
 		"158_FuelSystemDevelopment":
 		{
@@ -2200,7 +2230,7 @@
 		"634_GDIEnginePerformanceTechnorogyDevelopment":
 		{
 		"0":"634_GDI Engine Performance Technorogy Development",
-		"1":""
+		"1":"634_GDI性能技術開発"
 		},
 		"426_EnginePackaging":
 		{
@@ -2647,6 +2677,12 @@
 		"0":"562_Gasoline Engine ECM Calilbration Development",
 		"1":"562_エンジンECM適合開発"
 		},
+		"563_PowertrainECUDatasetManagement":
+		{
+		"0":"563_Powertrain ECU Dataset Management",
+		"1":"563_パワートレインECUデータセット管理"
+		},
+		
 		"564_AT/CVTControllerDevelopment":
 		{
 		"0":"564_AT/CVT Controller Development",
@@ -4933,11 +4969,164 @@
          "0": "R&D, N2/NS"
         , "1": "R&D, N2/NS"
 	},
-	"R&D GM Meeting":
-     {
-         "0": "R&D, N2/NS"
-        , "1": "R&D, N2/NS"
+	
+	/****** Meeting Name Refiner ***/
+	"R&DGMMeeting":
+	{
+		"0":"R&D GM Meeting",
+		"1":"R&D部長会"				
 	},
+	
+	"SectionManagerGeneralizationMeeting":
+	{
+	  "0":"Section Manager Generalization Meeting",
+      "1":"総括課長会議"
+	},
+	
+	"SectionManagerGeneralizationMeeting(for outside of R&D Div.)":
+	{
+      "0":"Section Manager Generalization Meeting(for outside of R&D Div.)",
+      "1":"総括課長会議（R&D部門外向け）"
+   },
+	
+	"SafetyandHealthCommitteeinNTCregion" :
+	{
+	"0":"Safety and Health Committee in NTC region",
+    "1":"NTC地区安全衛生委員会"
+	  },
+      
+     
+  "R&DInformation&InfraCommittee" :
+  {
+      "0":"R&D Information & Infra Committee",
+      "1":"R&D情報インフラ窓口会議"
+   },
+	
+	
+"ConsumerDrivenVehicleDevelopmentSC" :
+{
+      "0":"Consumer Driven Vehicle Development SC",
+      "1":"買って貰える車づくりSC"
+   },
+		
+	"MonozukuriQualityImprovementCommittee":
+	{
+     "0":"Monozukuri Quality Improvement Committee",
+      "1":"モノ造り品質向上委員会"
+    },	
+	
+	"R&DQualityMeeting" :
+	{
+     "0":"R&D Quality Meeting",
+      "1":"DQMM（旧R&D品質会議）"
+    },
+	
+	
+	"WeightReductionComittee":
+	{
+      "0":"Weight Reduction Comittee",
+      "1":"軽量化推進会議"
+    },
+	
+	"NESR&DSubcommittee-ChiefsMeeting":
+	{
+      "0":"NES R&D Subcommittee-Chiefs Meeting",
+      "1":"NES委員会 R＆D部会分科会長会議"
+    },
+	
+	"AllianceTechnicalStandardCommittee":
+	{
+      "0":"Alliance Technical Standard Committee",
+      "1":"Alliance Technical Standard Committee"
+    },
+	
+	
+	"R&DMTP":
+	{
+    "0":"R&D MTP",
+      "1":"R&D部門中計"
+   },
+	
+	"OverseasLeadersMeeting" :
+	{
+     "0":"Overseas Leaders Meeting",
+      "1":"海外拠点長会議"
+   },
+	"R&DEvent":
+	{
+     "0":"R&D Event",
+      "1":"R&D部門イベント"
+   },
+   "NissanproductdevelopmentManagementcommittee":
+	{
+     "0":"Nissan product development Management committee",
+      "1":"日産製品開発Management committee"
+	},
+	
+	"NissanProductDevelopmentSpecialManagementitems":
+	{
+     "0":"Nissan Product Development Special Management items",
+      "1":"日産製品開発 重点方針管理"
+	},
+	
+	"QualityForum":
+	{
+     "0":"Quality Forum",
+      "1":"Quality Forum"
+   },
+	"V-3P&ProcessCommittee":
+	{
+     "0":"V-3P & Process Committee",
+      "1":"V-3P・プロセス部会 "
+   },
+   "NML-R&DeachDept.WeeklyReport":
+   {
+     "0":"NML-R&D each Dept. Weekly Report",
+      "1":"R&D各部週報"
+   },
+   "R&DEducationCommittee":
+    {
+     "0":"R&D Education Committee",
+      "1":"R&D教育委員会"
+   },
+   "Global-R&DeachDept.WeeklyReport":
+    {
+     "0":"Global-R&D each Dept. Weekly Report",
+      "1":"海外R&D拠点週報"
+   },
+   "AllianceEngineeringManagement":
+   {   
+	"0":"Alliance Engineering Management",
+    "1":"Alliance Engineering Management"
+   },
+   "MONOZUKURIITCommittee":
+    {
+     "0":"MONOZUKURI IT Committee",
+      "1":"モノ造り技術委員会モノ造りIT推進部会"
+   },
+   
+   "CVEMonthlyReport":
+   {
+     "0":"CVE Monthly Report",
+      "1":"CVE Monthly Report"
+   },
+   "MonozukuriTechnologyBoardMeeting":
+   {
+     "0":"Monozukuri Technology Board Meeting",
+      "1":"モノ造り技術委員会"
+   },
+   "SimultaneousCommittee":
+   {
+     "0":"Simultaneous Committee",
+      "1":"モノ造り技術委員会サイマル部会"
+   },
+   
+   
+   
+   /********* Meeting Name refiner ends *****/
+   
+   
+	
 	"Section Manager Generalization Meeting":
      {
          "0": "R&D, TCSX,生技 Product ENG,購買 Purch,情シス IS,NTC,プロパ N proper,N職番以外 contractor_eng"
